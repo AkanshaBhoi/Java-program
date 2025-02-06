@@ -1,0 +1,15 @@
+class perimeter 
+{
+	public static void main(String[] args) 
+	{
+		float radius=5.5f;
+
+		float perimeter=2f*(22f/7f)*radius;
+
+		float area=(22f/7f)*(radius*radius);
+
+		System.out.println("Radius of circle is: "+radius);
+		System.out.println("Perimeter of circle is: "+perimeter);
+		System.out.println("Area of circle is: "+area);
+	}
+}
